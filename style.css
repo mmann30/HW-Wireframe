@@ -28,7 +28,6 @@ nav {
 
 #content-wrapper {
 	width: 960px;
-	height: auto;
 	margin: auto;
 }
 
@@ -37,11 +36,26 @@ section {
 	width: 495px;
 	height: 300px;
 	float: left;
+	text-align: center;
+	line-height: 100px;
 }
 
 article {
 	background-color: #777;
 	width: 475px;
+	line-height: 40px;
+	margin: auto;
+	padding: 5px;
+}
+
+article h1 {
+	background-color: #ebebeb;
+	margin: 5px;
+}
+
+article p {
+	background-color: #ebebeb;
+	margin: 5px;
 }
 
 aside {
@@ -49,6 +63,8 @@ aside {
 	width: 440px;
 	height: 300px;
 	float: right;
+	text-align: center;
+	line-height: 100px;
 }
 
 footer {
